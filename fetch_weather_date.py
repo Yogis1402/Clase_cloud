@@ -32,7 +32,7 @@ current_datetime = datetime.now().strftime("%Y%m%d_%H%M%S")
 filename = f"weather_{current_datetime}.json"
 
 # Especificar las rutas de los archivos
-folder_path = "openweathermap_data/raw_data/"
+folder_path = "./"
 full_file_path = folder_path + filename
 
 

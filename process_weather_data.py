@@ -9,7 +9,7 @@ current_date_time = None
 
 def get_latest_weather_data():
     global current_date_time
-    filename = 'openweathermap_data/raw_data/weather.json'
+    filename = './weather.json'
     with open(filename) as f:
         data = json.load(f)
         
